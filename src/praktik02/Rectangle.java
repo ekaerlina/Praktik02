@@ -2,6 +2,11 @@ package praktik02;
 public class Rectangle {
     double panjang;
     double lebar;
+
+    public Rectangle() {
+        panjang=5;
+        lebar=2;
+    }
     
     void cetakInfo() {
         System.out.println("====================");
@@ -17,7 +22,7 @@ public class Rectangle {
     }
     
     void cetakLuas(){
-        System.out.println("Luasnya adalah: "+rl.hitungLuas());
-        rl.cetakLuas();
+        System.out.println("Luasnya adalah: "+hitungLuas());
+        
     }
 }
